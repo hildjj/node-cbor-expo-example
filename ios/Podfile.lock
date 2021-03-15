@@ -31,7 +31,7 @@ PODS:
     - UMPermissionsInterface
   - EXSecureStore (9.3.0):
     - UMCore
-  - EXSplashScreen (0.8.1):
+  - EXSplashScreen (0.9.0):
     - React-Core
     - UMCore
   - EXSQLite (8.5.0):
@@ -284,11 +284,38 @@ PODS:
     - React-Core (= 0.63.4)
     - React-cxxreact (= 0.63.4)
     - React-jsi (= 0.63.4)
-  - RNGestureHandler (1.8.0):
-    - React
-  - RNReanimated (1.13.2):
+  - RNGestureHandler (1.10.3):
     - React-Core
-  - RNScreens (2.15.2):
+  - RNReanimated (2.0.0):
+    - DoubleConversion
+    - FBLazyVector
+    - FBReactNativeSpec
+    - Folly
+    - glog
+    - RCTRequired
+    - RCTTypeSafety
+    - React
+    - React-callinvoker
+    - React-Core
+    - React-Core/DevSupport
+    - React-Core/RCTWebSocket
+    - React-CoreModules
+    - React-cxxreact
+    - React-jsi
+    - React-jsiexecutor
+    - React-jsinspector
+    - React-RCTActionSheet
+    - React-RCTAnimation
+    - React-RCTBlob
+    - React-RCTImage
+    - React-RCTLinking
+    - React-RCTNetwork
+    - React-RCTSettings
+    - React-RCTText
+    - React-RCTVibration
+    - ReactCommon/turbomodule/core
+    - Yoga
+  - RNScreens (2.18.1):
     - React-Core
   - UMAppLoader (1.4.0)
   - UMBarCodeScannerInterface (5.4.0)
@@ -501,7 +528,7 @@ SPEC CHECKSUMS:
   EXLocation: d55e2a37f61bcfb4eba9c813b3f4621d896c4c00
   EXPermissions: 17d4846ad1880f6891c74ae58ca1acb43e47ed47
   EXSecureStore: 1b571851e6068b30b8ec097be848a04603c03bae
-  EXSplashScreen: 8c7c1112ce7611a853486af4737fe2298eda7657
+  EXSplashScreen: ab5984afcca91e0af6b3138f01a8c47dc4955c51
   EXSQLite: bda6a286dded0637bb312ee781239dcca163ff4b
   EXUpdates: 5124c03b19730078482a27b97fcb4718b06ca6b5
   FBLazyVector: 3bb422f41b18121b71783a905c10e58606f7dc3e
@@ -528,9 +555,9 @@ SPEC CHECKSUMS:
   React-RCTText: 5c51df3f08cb9dedc6e790161195d12bac06101c
   React-RCTVibration: ae4f914cfe8de7d4de95ae1ea6cc8f6315d73d9d
   ReactCommon: 73d79c7039f473b76db6ff7c6b159c478acbbb3b
-  RNGestureHandler: 7a5833d0f788dbd107fbb913e09aa0c1ff333c39
-  RNReanimated: e03f7425cb7a38dcf1b644d680d1bfc91c3337ad
-  RNScreens: 3d682bcaba69a4f8e55543d90818704f34338db1
+  RNGestureHandler: a479ebd5ed4221a810967000735517df0d2db211
+  RNReanimated: 5231286440b796e09df3bfa5c1b12b02bfe07664
+  RNScreens: f7ad633b2e0190b77b6a7aab7f914fad6f198d8d
   UMAppLoader: 92d044af52626af3d81a69796ad666fc7a9a7d78
   UMBarCodeScannerInterface: 3f6c1b09ef4b867ce752b8c0b3893bcf9cd85f32
   UMCameraInterface: d516032121192fee9a6c93bdfff0bb2cc7282796
