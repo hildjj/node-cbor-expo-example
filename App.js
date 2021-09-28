@@ -1,9 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import process from 'process';
-global.process = process;
-import cbor from 'cbor';
+require('cbor-rn-prereqs');
+const cbor = require('cbor');
+
 
 export default function App() {
   return (

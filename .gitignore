@@ -134,3 +134,4 @@ buck-out/
 web-build/
 
 # @end expo-cli
+yarn.lock
